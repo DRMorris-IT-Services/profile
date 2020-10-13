@@ -1,0 +1,14 @@
+{
+    "name": "duncanrmorris/profile",
+    "description": "The User Profile Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Duncan Morris",
+            "email": "duncanmorris07@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
