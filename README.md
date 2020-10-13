@@ -11,6 +11,10 @@ The Profile package is designed to run within the Laravel ^7.2 application, givi
 
 The Profile package is offered along side other packages from DRMorris IT Services, to checkout these other packages go to https://github.com/DRMorris-IT-Services
 
+![Profile Overview](profile_overview.png)
+<br>
+![Profile Details](profile_details.png)
+
 ## Installation
 To install this package within your Laravel application please follow these steps:
 
