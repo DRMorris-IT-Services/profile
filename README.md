@@ -9,7 +9,7 @@
 
 The Profile package is designed to run within the Laravel ^7.2 application, giving you a quick and simple profile management tool for your users.
 
-The Profile package is offered along side other packages from DRMorris IT Services, to checkout these other packages go to www.drmorris-itservices.de
+The Profile package is offered along side other packages from DRMorris IT Services, to checkout these other packages go to https://github.com/DRMorris-IT-Services
 
 ## Installation
 To install this package within your Laravel application please follow these steps:
