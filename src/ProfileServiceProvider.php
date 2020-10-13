@@ -3,7 +3,7 @@ namespace duncanrmorris\profile;
 
 use Illuminate\Support\ServiceProvider;
 
-class InvoicesServiceProvider extends ServiceProvider
+class ProfileServiceProvider extends ServiceProvider
 
 {
     
@@ -12,6 +12,7 @@ class InvoicesServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->loadViewsFrom(__DIR__.'/views','profile');
         $this->loadMigrationsFrom(__DIR__.'/migrations');
+        
         
     }
 

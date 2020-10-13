@@ -1,9 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace duncanrmorris\profile\Http\Controllers;
 
-use App\Http\Requests\ProfileRequest;
-use App\Http\Requests\PasswordRequest;
+use Illuminate\Routing\Controller;
+use Illuminate\Support\Facades\View;
+
+use duncanrmorris\profile\Http\Requests\ProfileRequest;
+use duncanrmorris\profile\Http\Requests\PasswordRequest;
 use Illuminate\Support\Facades\Hash;
 
 class ProfileController extends Controller
@@ -15,7 +18,7 @@ class ProfileController extends Controller
      */
     public function edit()
     {
-        return view('profile.edit');
+        return view('profile::edit');
     }
 
     /**
